@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinTrack</title>
+  <link rel="stylesheet" href="Movie ticket booking system.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to FinTrack</h1>
+  </header>
+  <main>
+    
+    <section id="expenseTracking">
+      <h2>Expense Tracking</h2>
+      <form id="expenseForm">
+        <input type="text" id="expenseName" placeholder="Expense Name" required>
+        <input type="number" id="expenseAmount" placeholder="Amount" required>
+        <input type="date" id="expenseDate" required>
+        <select id="expenseCategory" required>
+          <option value="">Select Category</option>
+          <option value="Groceries">Groceries</option>
+          <option value="Utilities">Utilities</option>
+          <option value="Entertainment">Entertainment</option>
+          <!-- Add more categories -->
+        </select>
+        <button type="submit">Add Expense</button>
+      </form>
+    
+  </main>
+ 
+</body>
+</html>
